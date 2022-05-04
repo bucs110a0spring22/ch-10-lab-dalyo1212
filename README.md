@@ -10,18 +10,18 @@ Replace anything surrounded by the `< >` symbols._
 ## SUMMARY:
  < Provide a short description of your program's functionality. No more than a couple sentences. >
 #### Unique Feature
- < Describe the unique feature you added >
+ I added a feature that allows the player to change the background color as well as creating a function where the x and y function were given a random variable.
 
 ## GRACE DAYS
-Grace days used for this assignment: < # >
+Grace days used for this assignment: 1
 
-Grace days remaining: < # >/5
+Grace days remaining: 0/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+ N/A
 
 ## REFERENCES:
- < List any outside resources used >
+ N/A
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+ N/A

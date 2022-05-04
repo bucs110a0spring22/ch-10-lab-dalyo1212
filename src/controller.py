@@ -35,6 +35,7 @@ class Controller:
                 self.gameOver()
 
     def gameLoop(self):
+        color = input("Enter a color for when you die: ")
         while self.state == "GAME":
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
@@ -57,8 +58,9 @@ class Controller:
                         e.kill()
                         self.background.fill((250, 250, 250))
                     else:
-                        self.background.fill((250, 0, 0))
+                        self.background.fill((color))
                         self.enemies.add(e)
+                      
 
             # redraw the entire screen
             self.enemies.update()
